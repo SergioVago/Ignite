@@ -2,8 +2,10 @@ import { GetStaticProps } from 'next'
 import Head from 'next/head'
 import { SubscribeButton } from '../components/SubcribeButton'
 import { stripe } from '../services/stripe';
+import { ToastContainer } from 'react-toastify';
 
 import styles from './home.module.scss'
+import 'react-toastify/dist/ReactToastify.css';
 
 interface HomeProps {
   product: {
@@ -36,6 +38,8 @@ export default function Home({ product }: HomeProps) {
 
         <img src="/images/avatar.svg" alt="Girl coding" />
       </main>
+
+      <ToastContainer />
     </>
   )
 }
