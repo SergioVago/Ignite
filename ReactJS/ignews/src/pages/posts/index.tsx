@@ -15,11 +15,11 @@ type Post = {
 }
 
 interface PostsProps {
-  posts: Post[] 
+  posts: Post[]
 }
 
 export default function Posts({ posts }: PostsProps) {
-  
+
   return (
     <>
       <Head>
