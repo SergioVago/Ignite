@@ -21,7 +21,7 @@ const posts = [
     content: [
       { type: ContentType.paragraph, content: 'Fala galeraa 👋' },
       { type: ContentType.paragraph, content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
-      { type: ContentType.link, content: 'jane.design/doctorcare' },
+      { type: ContentType.link, content: 'https://unkode.com.br' },
     ],
     publishedAt: new Date('2022-08-29 20:00:00')
   },
@@ -35,7 +35,7 @@ const posts = [
     content: [
       { type: ContentType.paragraph, content: 'Fala galeraa 👋' },
       { type: ContentType.paragraph, content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
-      { type: ContentType.link, content: 'jane.design/doctorcare' },
+      { type: ContentType.link, content: 'https://unkode.com.br' },
     ],
     publishedAt: new Date('2022-08-29 15:00:00')
   },
